@@ -1,5 +1,5 @@
 yandex_metrika: 'Яндекс Метрика'
 counter_id: 'ID счётчика'
 manage_yandex_metrika_settings: 'Управление настройками Яндекс Метрики'
-plugin_setup_required_warning: 'Необходимо <a href="{:yandex_metrika_admin_settings_url}">настроить плагин ID счётчика</a>'
+plugin_setup_required_warning: 'Необходимо <a href="{:yandex_metrika_admin_settings_url}">настроить плагин Яндекс Метрика</a>'
 counter_id_setup_help: 'Получите ваш ID счётчика <a target="_blank" href="https://metrika.yandex.ru/add">здесь</a>, затем скопируйте его в это поле'
