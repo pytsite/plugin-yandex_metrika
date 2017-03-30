@@ -1,0 +1,5 @@
+yandex_metrika: 'Яндекс Мєтрiка'
+counter_id: 'ID лiчильника'
+manage_yandex_metrika_settings: 'Керування налаштуваннями Яндекс Мєтрiки'
+plugin_setup_required_warning: 'Необхідно <a href="{:yandex_metrika_admin_settings_url}">налаштувати плагін Яндекс Мєтрiка</a>'
+counter_id_setup_help: 'Отримайте ваш ID лiчильника <a target="_blank" href="https://metrika.yandex.ru/add">тут</a>, потім додайте його в це поле'
