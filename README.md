@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.1.3 (2017-08-27)
+`plugin.json` updated.
+
+
 ### 0.1.2 (2017-03-30)
 Fixed translations.
 
