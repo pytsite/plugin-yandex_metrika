@@ -7,12 +7,13 @@ __license__ = 'MIT'
 
 
 def _init():
-    from pytsite import lang, tpl, permissions, settings, events, router
+    from pytsite import lang, tpl, router
+    from plugins import permissions, settings
     from . import _settings_form, _eh
 
     # Resources
-    lang.register_package(__name__, alias='yandex_metrika')
-    tpl.register_package(__name__, alias='yandex_metrika')
+    lang.register_package(__name__)
+    tpl.register_package(__name__)
 
     # Lang globals
     lang.register_global('yandex_metrika_admin_settings_url',
