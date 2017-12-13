@@ -6,7 +6,7 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
-def _init():
+def plugin_load():
     from pytsite import lang, tpl, router
     from plugins import permissions, settings
     from . import _settings_form, _eh
@@ -29,6 +29,3 @@ def _init():
 
     # Event handlers
     router.on_dispatch(_eh.router_dispatch)
-
-
-_init()
