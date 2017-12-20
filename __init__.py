@@ -6,7 +6,7 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
-def plugin_load():
+def plugin_load_uwsgi():
     from pytsite import lang, tpl, router
     from plugins import permissions, settings
     from . import _settings_form, _eh
