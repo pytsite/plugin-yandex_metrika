@@ -1,5 +1,4 @@
 yandex_metrika: 'Yandex Metrika'
 counter_id: 'Counter ID'
-manage_yandex_metrika_settings: 'Manage Yandex Metrika settings'
 plugin_setup_required_warning: 'You should <a href="{:yandex_metrika_admin_settings_url}">setup Yandex Metrika plugin</a>'
 counter_id_setup_help: 'Obtain your counter ID <a target="_blank" href="https://metrika.yandex.ru/add">here</a> then copy it to this field'

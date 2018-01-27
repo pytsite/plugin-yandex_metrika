@@ -8,7 +8,7 @@ __license__ = 'MIT'
 
 def plugin_load_uwsgi():
     from pytsite import lang, tpl, router
-    from plugins import permissions, settings
+    from plugins import settings
     from . import _settings_form, _eh
 
     # Resources
@@ -19,13 +19,8 @@ def plugin_load_uwsgi():
     lang.register_global('yandex_metrika_admin_settings_url',
                          lambda language, args: settings.form_url('yandex_metrika'))
 
-    # Permissions
-    permissions.define_permission('yandex_metrika.settings.manage',
-                                  'yandex_metrika@manage_yandex_metrika_settings', 'app')
-
     # Settings
-    settings.define('yandex_metrika', _settings_form.Form, 'yandex_metrika@yandex_metrika',
-                    'fa fa-line-chart', 'yandex_metrika.settings.manage')
+    settings.define('yandex_metrika', _settings_form.Form, 'yandex_metrika@yandex_metrika', 'fa fa-line-chart', 'dev')
 
     # Event handlers
     router.on_dispatch(_eh.router_dispatch)
